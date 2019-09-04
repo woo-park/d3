@@ -5,8 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev":"nodemon --watch src ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
