@@ -2,24 +2,24 @@ const Bargraph = function () {
         //temporary dataset
     let dataset = [ 25, 7, 5, 26, 11];
 
-    //1st
-    //none svg // just straight up into body // which is nahh
-    d3.select("body")
-        .append("p")
-        .text("Adding new para with d3");
+    // //1st
+    // //none svg // just straight up into body // which is nahh
+    // d3.select("body")
+    //     .append("p")
+    //     .text("Adding new para with d3");
 
-    d3.select("body")
-        .selectAll('div')   //at this point, div dont exists
-        .data(dataset)      //think of doing for-loop on data-set array - then putting on each div
-        .enter()            //instantiates placeholder
-        .append('div')      //putting 'div' on the placeholder
-        .attr('class', 'bar')
-        .style('height', function(d){   //returning data
-            let barHeight = d * 5;
-            return barHeight + 'px';
-        })          //boring
+    // d3.select("body")
+    //     .selectAll('div')   //at this point, div dont exists
+    //     .data(dataset)      //think of doing for-loop on data-set array - then putting on each div
+    //     .enter()            //instantiates placeholder
+    //     .append('div')      //putting 'div' on the placeholder
+    //     .attr('class', 'bar')
+    //     .style('height', function(d){   //returning data
+    //         let barHeight = d * 5;
+    //         return barHeight + 'px';
+    //     })          //boring
 
-    //2nd
+    // //2nd
 
 
     let w = 500;

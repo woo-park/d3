@@ -74,10 +74,7 @@ let Scatterplot = function () {
         })
         .attr('font-family', 'sans-serif')
         .attr('font-size', '11px')
-        .attr('fill', 'red')
-
-    console.log('ay')
-
+        .attr('fill', 'green');
 }
 
 

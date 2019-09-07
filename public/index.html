@@ -10,20 +10,38 @@
     <!-- <script src="https://d3js.org/d3-selection.v1.min.js"></script> -->
     <script src = "./d3.min.js"></script>
     <style>
-        div.bar{
-            display: inline-block;
-            width:20px;
-            height:75px;
-            background-color: teal;
-            margin-right: 2px;
+       
+        .line{
+            fill: none;
+            stroke: teal;
+            stroke-width: 1.5;
+        }
+        .dangerLine{
+            fill: none;
+            stroke: crimson;
+            stroke-width: 1.5;
+        }
+
+        .axis path,
+        .axis line {
+            stroke: teal;
+            shape-rendering: crispEdges;
+        }
+        .axis text{
+            font-family: Optima, Futura, sans-serif;
+            font-weight: bold;
+            font-size:14px;
+            fill:teal;
+        }
+        .svg_container{
+            border:1px solid black;
         }
     </style>
 </head>
 <body>
-    <div>
-        <p>Begin D3 here</p>
-        <p>Hello World!</p>
-    </div>    
+    <script type="text/javascript">
+        
+    </script>
     <script type = "module" src = "js/main.js"></script>
 </body>
 </html>
