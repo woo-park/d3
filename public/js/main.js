@@ -5,6 +5,7 @@ import Dateplot from "../Reusable/Dateplot/index.js";
 import Linechart from "../Reusable/Linechart/index.js";
 import Datachart from "../Reusable/Datachart/index.js";
 import Ordinalgraph from "../Reusable/Ordinalgraph/index.js";
+import Piechart from "../Reusable/Piegraph/index.js";
 //import all modules 
 
 
@@ -15,3 +16,4 @@ Bargraph();  // is not appended on to svg - straight to body tag    //now is
 // Linechart();
 Datachart();
 Ordinalgraph();
+Piechart();
